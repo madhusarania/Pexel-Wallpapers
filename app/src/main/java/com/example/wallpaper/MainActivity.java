@@ -130,7 +130,6 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
             public void onResponse(JSONObject response) {
                 loadingPB.setVisibility(View.GONE);
                 try {
-
                     JSONArray photoArray = response.getJSONArray("photos");
                     for (int i = 0; i < photoArray.length(); i++) {
                         JSONObject photoObj = photoArray.getJSONObject(i);
