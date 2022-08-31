@@ -165,16 +165,16 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
 
 
     private void getCategories() {
-        categoryRVModalArrayList.add(new CategoryRVModal("Technology","https://www.pexels.com/photo/black-and-gray-motherboard-2582937/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Programming","https://www.pexels.com/photo/full-frame-shot-of-abstract-pattern-249798/"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Technology","https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Programming","https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?cs=srgb&dl=pexels-lukas-574071.jpg&fm=jpg"));
         categoryRVModalArrayList.add(new CategoryRVModal("Nature","https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto-compress&cs-tinysrgb&dpr=1&w=500"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Travel","https://www.pexels.com/photo/airplane-windowpane-showing-city-buildings-316794/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Architecture","https://www.pexels.com/photo/empty-cathedral-135018/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Arts","https://www.pexels.com/photo/person-with-body-painting-1209843/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Music","https://www.pexels.com/photo/turned-on-black-samsung-smartphone-between-headphones-1337753/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Abstract","https://www.pexels.com/photo/silhouette-of-person-holding-sparkler-digital-wallpaepr-266429/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Cars","https://www.pexels.com/photo/white-coiupe-274974/"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Flowers","https://www.pexels.com/photo/landscape-nature-night-relaxation-36478/"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Travel","https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto-compress&cs=tinysrgb&dpr=1&w=500"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Architecture","https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Arts","https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Music","https://images.pexels.com/photos/4348093/pexels-photo-4348093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Abstract","https://images.pexels.com/photos/2110951/pexels-photo-2110951.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Cars","https://images.pexels.com/photos/274974/pexels-photo-274974.jpeg?cs=srgb&dl=pexels-pixabay-274974.jpg&fm=jpg"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Flowers","https://images.pexels.com/photos/1086178/pexels-photo-1086178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"));
         categoryRVAdapter.notifyDataSetChanged();
     }
 

@@ -1,5 +1,6 @@
 package com.example.wallpaper;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,7 +34,7 @@ public class CategoryRVAdapter extends RecyclerView.Adapter<CategoryRVAdapter.Vi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull CategoryRVAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull CategoryRVAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         CategoryRVModal categoryRVModal = categoryRVModalArrayList.get(position);
         holder.categoryTV.setText(categoryRVModal.getCategory());
         Glide.with(context).load(categoryRVModal.getCategoryIVUrl()).into(holder.categoryIV);
@@ -54,7 +55,7 @@ public class CategoryRVAdapter extends RecyclerView.Adapter<CategoryRVAdapter.Vi
 
     @Override
     public int getItemCount() {
-        return 0;
+        return categoryRVModalArrayList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
